@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Form to fill if you want to get an updates about new stories or books">
+    <link rel="stylesheet" href="folktale.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folktales Across the World</title>
+    <script>
+      function validateForm() {
+       const phoneNumber = document.getElementById("myPhone").value;
+       const regex = /^\d{3}-\d{3}-\d{4}$/;
+       if (regex.test(phoneNumber)){
+         return true;
+       }
+       else{
+         alert("Invalid phone number. Your phone number should contain dash afrer the area code and first three digits of your number.");
+         return false;
+       }
+      }
+      </script>
+  </head>
+  <body>
+    
+       <header>
+        <h1><a href="main.html">Folktales Across the World</a></h1>
+       </header>
+       <div id="wrapper">
+
+       <main>
+        <h2>Want to get an updates?</h2>
+        <h3>Contact Us</h3>
+        <p>Required fields are marked with an asterisk *.</p>
+        <form method="post" action="Submition.html"
+        onsubmit="return validateForm();">
+        <label for="myFName">*First Name:</label>
+        <input type="text" name="myFName" id="myFName" required>
+        <label for="myLName">*Last Name:</label>
+        <input type="text" name="myLName" id="myLName" required>
+        <label for="myEmail">*Email:</label>
+        <input type="text" name="myEmail" id="myEmail" required>
+        <label for="myPhone">Phone XXX-XXX-XXXX:</label>
+        <input type="text" name="myPhone" id="myPhone" minlength="10" maxlength="12">
+        <label for="myComments">What do you want to get updates about: Books / New posts / Legends</label>
+        <textarea 
+        name="myComments"
+        id="myComments" 
+        rows="2" 
+        cols="20"
+        ></textarea>
+        <input type="submit" value="Submit">
+      </form> 
+  </main>
+  </div>
+  </body>
+  </html>

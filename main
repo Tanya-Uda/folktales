@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="pacific.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folktales Across the World</title>
+  </head>
+  <body>
+    <div id="wrapper">
+       <header>
+           <h1><a href="main.html">Folktales Across the World</a></h1>
+       </header>
+        <nav>
+          <ul>
+              <li><a href="North_America.html">Home</a> &nbsp;</li>
+              <li><a href="South_America.html">Yurts</a> &nbsp;</li>
+              <li><a href="Europe.html">Activities</a> &nbsp;</li>
+              <li><a href="Asia.html">Reservations</a> &nbsp;</li>
+              <li><a href="Africa.html">Home</a> &nbsp;</li>
+              <li><a href="Australia/Oceania.html">Home</a> &nbsp;</li>
+              <li><a href="Russia.html">Home</a> &nbsp;</li>
+              <li><a href="Middle_East.html">Home</a> &nbsp;</li>
+          </ul>
+       </nav>
+       <div id="homehero"></div>
+       <main>
+              <h2>Let's Explore the Most Popular Folktales Across The World!</h2>
+              <p>
+                <span>Folktales</span></a> are traditional stories that are passed <br>
+                down orally from generation to generation. They are created by "the folks"<br>
+                or the people, and often feature magical or supernatural elements. These stories <br>
+                can explain something or provide moral lessons. They are ussually fictional <br>
+                and may involve talking animals, royalty, peasants, or mythical creatures.
+              </p>
+              <h3>So today you can:</h3>
+            <ul>
+              <li>Learn some more about the Folktales</li>
+              <li>Learn something new from those stories</li>
+              <li>To get know what Folktales are the most popular around the world</li>
+              <li>To learn some good morals out of the folklore</li>
+            </ul>
+            <div>
+            <span class="resort">Read is fun</span>
+            </div>
+        </main>
+             <footer> 
+                  Copiright &copy; 2024 Read is fun<br>
+                  <a href="mailto:tats@uda.com">tats@uda.com</a>
+             </footer>
+    </div>
+  </body>
+</html>
